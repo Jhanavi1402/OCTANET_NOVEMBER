@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: url(/Lion\ colorized\ \(black\ &\ white\ version\ in\ comments\)\ [1920x1080].jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+.mainheader .logo{
+    color: rgb(2, 255, 255);
+}
+
+
+.logo h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    border-bottom: 2px solid rgb(254, 255, 255);
+    cursor: pointer;
+}
+
+ 
+.logo h1:hover{
+    color: rgb(6, 238, 225);
+
+}
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: rgb(4, 250, 225);
+
+}
+
+.headerbuttons{
+    word-spacing: 20px;
+}
+.headerbuttons button{
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.headerbuttons button:hover{
+    display: inline-block;
+    color: black;
+    background-color: turquoise;
+}
+
+.centertext{
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    width: 50%;
+    height: auto;
+}
+.centertext h1{
+    font-size: 60px;
+    color: rgb(5, 237, 253);
+    padding-bottom: 10px;
+}
+.centertext h2{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: rgb(249, 252, 252);
+}
+.centertext p{
+    letter-spacing: 1px;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.textbuttons{
+    word-spacing: 20px;
+}
+.textbuttons button{
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: black;
+    color: rgb(2, 255, 255);
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.textbuttons button:hover{
+    background-color: turquoise;
+    color: black;
+}
